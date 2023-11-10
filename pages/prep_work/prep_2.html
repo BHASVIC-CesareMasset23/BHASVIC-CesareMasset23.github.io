@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Topp Tutoring</title>
+        <link rel="stylesheet" href="../../styles/style.css">
+        <link rel="icon" href="../../graphics/logo/mini_fire.jpg">
+    </head>
+<body>
+
+  <button onclick="showText()">Show Text</button>
+  <p id="hiddenText">This is the hidden text that appears when the button is pressed.</p>
+
+  <script>
+    function showText() {
+      var hiddenText = document.getElementById('hiddenText');
+      hiddenText.style.display = 'block';
+    }
+  </script>
+
+</body>
+</html>
+
